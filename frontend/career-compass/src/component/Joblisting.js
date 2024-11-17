@@ -49,7 +49,7 @@ function ResumeUploader() {
 
   const fetchIndeedJobs = async (roles) => {
     setLoadState(true); // Start loading for job fetching
-    const apiKey = '6736520f4aa066a98a1920d1'; // Your ScrapingDog API key
+    const apiKey = 'putyourkey; // Your ScrapingDog API key
     const location = 'India'; // You can make this dynamic based on user input if needed
     const experienceLevel = 'entry level'; // Modify as needed
 
