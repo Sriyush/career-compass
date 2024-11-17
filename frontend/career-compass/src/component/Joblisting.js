@@ -23,7 +23,7 @@ function ResumeUploader() {
     setIsLoading(true);
     setJobLoad(true); // Show loading for job roles
     try {
-      const response = await fetch('https://fac7-34-125-195-23.ngrok-free.app/upload', {
+      const response = await fetch('https://get-your-ngrok-api.ngrok-free.app/upload', {
         method: 'POST',
         body: formData,
       });
